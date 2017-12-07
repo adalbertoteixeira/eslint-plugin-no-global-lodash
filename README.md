@@ -1,6 +1,7 @@
 # eslint-plugin-no-global-lodash
 
-[![Build Status](https://semaphoreci.com/api/v1/adalbertoteixeira/eslint-plugin-no-global-lodash/branches/master/shields_badge.svg)](https://semaphoreci.com/adalbertoteixeira/eslint-plugin-no-global-lodash) [![Coverage Status](https://coveralls.io/repos/github/adalbertoteixeira/eslint-plugin-no-global-lodash/badge.svg?branch=master)](https://coveralls.io/github/adalbertoteixeira/eslint-plugin-no-global-lodash?branch=master)
+[![Build Status](https://semaphoreci.com/api/v1/adalbertoteixeira/eslint-plugin-no-global-lodash/branches/master/shields_badge.svg)](https://semaphoreci.com/adalbertoteixeira/eslint-plugin-no-global-lodash)
+[![Coverage Status](https://coveralls.io/repos/github/adalbertoteixeira/eslint-plugin-no-global-lodash/badge.svg?branch=master)](https://coveralls.io/github/adalbertoteixeira/eslint-plugin-no-global-lodash?branch=master)
 
 Lodash should not be loaded globally. If a lodash method is needed only the package for that method should be loaded in the file.
 
