@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-global-lodash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lodash should not be loaded globally. If a lodash method is needed only the package for that method should be loaded in the file.",
   "keywords": [
     "eslint",
