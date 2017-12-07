@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-no-global-lodash",
+  "version": "0.0.0",
+  "description": "Lodash should not be loaded globally. If a lodash method is needed only the package for that method should be loaded in the file.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Adalberto Teixeira",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
