@@ -10,25 +10,37 @@ Lodash should not be loaded globally. If a lodash method is needed only the pack
 You'll first need to install [ESLint](http://eslint.org):
 
 ```
-$ npm i eslint --save-dev
+npm i eslint --save-dev
+```
+
+or 
+
+```
+  yarn add -D eslint
 ```
 
 Next, install `eslint-plugin-no-global-lodash`:
 
 ```
-$ npm install eslint-plugin-no-global-lodash --save-dev
+  npm install eslint-plugin-no-global-lodash --save-dev
+```
+
+or
+
+```
+  yarn add -D eslint-plugin-no-global-lodash
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-no-global-lodash` globally.
 
 ## Usage
 
-Add `eslint-no-global-lodash` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `no-global-lodash` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "eslint-no-global-lodash"
+        "no-global-lodash"
     ]
 }
 ```
