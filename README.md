@@ -51,7 +51,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "eslint-no-global-lodash/no-global-lodash": 2
+        "no-global-lodash/no-global-lodash": 2
     }
 }
 ```
